@@ -17,7 +17,7 @@ Note : game.dll (or game-1125.dll) is not provided and you will need to copy it 
 
 For Windows users : <br>
   - There's no need to use wine option, you only need to provide login/password to connect to the freeshard.
-  - You can tick the option "customized settings" and specify the DAOC folder if needed. You can also specify a customizes freeshard address
+  - You can tick the option "customized settings" and specify the DAOC folder if needed. You can also specify a customized freeshard address
 
 For Mac/Linux users : <br>
   - You will need to tick the wine option
