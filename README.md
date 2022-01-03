@@ -29,6 +29,6 @@ For Windows : <br>
   - A ZIP file containing the solution should be enough to distribute the solution
 
 For Mac/Linux : <br>
-  - You will need to provide the solution in a folder named "connect-tool" and put in the parent directory the script named "PlayRedMoon.command" from the Assets directory : this script will change to directory to the "connect-tool" folder before launching the RedMoonConnect executable
+  - You will need to provide the solution in a folder named "connect-tool" and put in the parent directory the script named "PlayRedMoon.command" from the Assets directory : this script will change the directory to the "connect-tool" folder before launching the RedMoonConnect executable
 
 
