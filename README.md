@@ -23,3 +23,12 @@ For Mac/Linux users : <br>
   - You will need to tick the wine option
   - Default folder which will be used is ".wine" and you can specify the wine command name (default is "wine", but you can specify for instance "wine32on64")
  
+# Packaging
+
+For Windows : <br>
+  - A ZIP file containing the solution should be enought to distribute the solution
+
+For Mac/Linux : <br>
+  - You will need to provide the solution in a folder named "connect-tool" and put in the parent directory the script named "PlayRedMoon.command" from the Assets directory : this script will change to directory to the "connect-tool" folder before launching the RedMoonConnect executable
+
+
