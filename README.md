@@ -1,1 +1,25 @@
 # RedMoonConnect
+
+Connect to custom DAOC Freeshard with the launcher tool and Avalonia GUI.
+
+![launcher-1](https://user-images.githubusercontent.com/57635141/147961932-a5c8c0ca-feb3-4367-a8f0-8c7c1b87b41a.png)
+
+
+# Generate solution
+
+Open the solution in Visual Build and proceed with the build.
+Note: the connect.exe will be copied after compilation in the destination folder (ie CopyCustomContent in csproj file)
+
+# Launch 
+
+Once the solution has been generated, you can run the launcher.
+Note : game.dll (or game-1125.dll) is not provided and you will need to copy it from your DAOC folder
+
+For Windows users : 
+  - There's no need to use wine option, you only need to provide login/password to connect to the freeshard.
+  - You can tick the option "customized settings" and specify the DAOC folder if needed. You can also specify a customizes freeshard address
+
+For Mac/Linux users : 
+  - You will need to tick the wine option
+  - Default folder which will be used is ".wine" and you can specify the wine command name (default is "wine", but you can specify for instance "wine32on64")
+ 
